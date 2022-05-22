@@ -1,0 +1,11 @@
+server:
+  port: 8200
+spring:
+  application:
+    name: project-service
+
+
+pl:
+  altkom:
+    employee:
+      url: http://localhost:8100
