@@ -4,8 +4,10 @@ spring:
   application:
     name: project-service
 
-
 pl:
   altkom:
     employee:
       url: http://localhost:8100
+logging:
+  level:
+    root: INFO
