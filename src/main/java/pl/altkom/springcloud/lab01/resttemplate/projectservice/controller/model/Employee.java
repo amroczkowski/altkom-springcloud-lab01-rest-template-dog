@@ -1,5 +1,7 @@
 package pl.altkom.springcloud.lab01.resttemplate.projectservice.controller.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.Builder;
 import lombok.Getter;
 
@@ -11,5 +13,6 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String city;
+    @JsonIgnore
     private Long projectId;
 }
